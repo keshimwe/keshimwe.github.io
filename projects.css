@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+.header {
+    background-color: blueviolet;
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    color: rgb(68, 22, 60);
+   text-align: center;
+   
+    
+   
+
+}
+
+.contact {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+img {
+    width: 20px;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.item ul {list-style: disc;
+    padding-left: 20px;
+}
+
+.item {
+    border: solid blueviolet 5px;
+    margin: 0;
+    padding: 0;
+}
+
+        .skills ul {
+          
+            padding: 0;
+        }
+        .skills ul li {
+            display: inline-block;
+            background-color: blueviolet;
+            color: black;
+            padding: 5px 10px;
+          margin-right: 28px;
+          margin-left: 25px;
+            border-radius: 4px;
+        }
