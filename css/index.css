@@ -1,0 +1,131 @@
+
+body {
+ font-family: Arial, sans-serif;
+  color: rgb(68, 22, 60);
+ line-height: 1.8;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ align-self: center;
+ }
+
+ 
+img {
+    width: 20px;
+}
+
+.header { 
+   background-color: blueviolet;
+   
+}
+
+h1{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items: center;
+}
+
+.keshititle{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items: center; 
+  font-size: 20px;
+}
+
+main{
+    margin: 1.5rem 0 1.5rem;
+}
+
+.container{
+	width: 100%;
+	max-width: 1000px;	
+    margin: 0 auto;
+}
+
+.pitem{
+    padding: 1.6rem;
+	width: 100%;
+	margin: 10px 5px 1.6rem;
+}
+
+ .skills{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+	margin-top: 50px; 
+ }
+
+ .aside{
+    background-color: blueviolet;
+    padding: 1.6rem;
+	width: 100%;
+	margin: 10px 5px 1.6rem;
+    display: flex;
+    justify-content: space-around;
+ } 
+
+ .contact{
+   display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+ .projects{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+ }
+
+ .devicon-html5-plain{
+    color: orangered;
+    font-size: 50px;
+ }
+
+ .devicon-css3-plain{
+    color: blue;
+    font-size: 50px;
+ }
+
+ .devicon-javascript-plain{
+    color: yellow;
+    font-size: 50px;;
+ }
+
+ footer{
+    margin-bottom: 0;
+ }
+ @media (min-width: 768px) {
+    .container {
+		display: flex;
+        gap: 2rem;
+	}
+     
+   
+
+    .aside{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        
+    }
+
+    .contact{
+    align-items: center;
+   
+}
+
+    .projects{
+    align-items: center;
+ }
+
+ .h2contact{
+    text-align: center;
+ }
+ }
+
+
+
+

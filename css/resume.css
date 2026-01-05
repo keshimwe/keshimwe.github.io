@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+.header {
+    background-color: blueviolet;
+    width: 100%;
+    min-width: 100vh;
+    height: 150px;
+    margin-top: 5px;
+    padding: 1rem;
+    color: rgb(68, 22, 60);
+}
+
+.keshititle{
+display: flex;
+flex-direction: row;
+font-size: 20px;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+h1 {
+    
+ display: flex;
+flex-direction: row;
+gap: 15px;
+flex-wrap: wrap;
+justify-content: center;   
+}
+
+
+.contact {
+display: flex;
+flex-direction: row;
+gap: 25px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+img {
+    width: 20px;
+}
+
+main{
+    margin: 1.5rem 0 1.5rem;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+	max-width: 1000px;	
+    margin: 0 auto;
+}
+
+.item {
+  width: 100%;
+   margin: 30px 5px 1.6rem;
+    padding: 2rem;;
+}
+
+.aside{
+    background-color: blueviolet;
+    padding: 2rem;
+	width: 1000px;
+	margin: 30px 5px 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+     background-color: blueviolet;
+}
+
+.bold{
+    font-weight: bold;
+
+}
+
+.skills ul li {
+    display: inline-block;
+    padding: 5px;      
+}
+ 
+.project{
+    
+}
