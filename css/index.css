@@ -1,12 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
- font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: rgb(68, 22, 60);
- line-height: 1.8;
- background-color: white;
- display: flex;
- flex-direction: column;
- align-self: center;
+  line-height: 1.8; 
+  margin: 0;
  }
 
  
@@ -14,71 +16,81 @@ img {
     width: 20px;
 }
 
-.header { 
-   background-color: blueviolet;
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blueviolet;
+    width: 100%; 
+    height: 150px;
+    padding: 2rem;
    
 }
 
-h1{
-     display: flex;
-    flex-direction: row;
-    justify-content: center;
-   align-items: center;
+nav{
+    display: flex;
+    gap: 45px;
 }
 
-.keshititle{
-   display: flex;
-    flex-direction: row;
-    justify-content: center;
-   align-items: center; 
-  font-size: 20px;
+nav a{
+     text-decoration: none;
+     font-weight: 500;
+     color: black;
+     transition: opacity 0.3s ease;
+     border-radius: 10px;
 }
+
+nav a:hover{
+    opacity: 0.6;
+}
+
 
 main{
     margin: 1.5rem 0 1.5rem;
 }
 
 .container{
-	width: 100%;
-	max-width: 1000px;	
+	width: 100%;	
     margin: 0 auto;
 }
 
-.pitem{
-    padding: 1.6rem;
-	width: 100%;
-	margin: 10px 5px 1.6rem;
+.contact {
+display: flex;
+flex-direction: column;
+gap: 30px;
+font-size: 18px;
 }
 
- .skills{
+.aside{
+    background-color: blueviolet;
+    margin: 35px 5px 1.6rem;
+    padding: 1.6rem;
+	width: 100%;
+    display: flex;
+    max-height: 450px;  
+}
+
+.h2contact{
+    margin-top: 50px;
+   
+}
+ .section, .myprojects, .pitem{
+ padding: 1.6rem;
+	width: 100%;
+	margin: px 5px 1.6rem;
+}
+
+
+ 
+ /*About me*/
+
+
+ .icons{
     display: flex;
     justify-content: center;
     gap: 50px;
 	margin-top: 50px; 
  }
-
- .aside{
-    background-color: blueviolet;
-    padding: 1.6rem;
-	width: 100%;
-	margin: 10px 5px 1.6rem;
-    display: flex;
-    justify-content: space-around;
- } 
-
- .contact{
-   display: flex;
-    flex-direction: column;
-    gap: 20px; 
-}
-
- .projects{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-
- }
-
  .devicon-html5-plain{
     color: orangered;
     font-size: 50px;
@@ -97,6 +109,37 @@ main{
  footer{
     margin-bottom: 0;
  }
+
+ /*Resume*/
+
+.skills ul{
+  column-count: 2;
+   column-gap: 10px;
+  display: flexbox;
+  flex-direction: column;
+
+}
+
+.education{
+    display: flex;
+   flex-direction: column;   
+ }
+
+.bold{
+    font-weight: bold;
+
+}
+
+/*Projects*/
+ .projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.projectsection{
+
+}
+ 
  @media (min-width: 768px) {
     .container {
 		display: flex;
@@ -108,22 +151,10 @@ main{
     .aside{
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 450px;
         
     }
 
-    .contact{
-    align-items: center;
-   
-}
-
-    .projects{
-    align-items: center;
- }
-
- .h2contact{
-    text-align: center;
- }
  }
 
 
